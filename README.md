@@ -1,5 +1,9 @@
 # Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models
 
+We propose Graph-of-Thought (GoT) reasoning, which models human thought processes not only as a chain but also as a graph. By representing thought units as nodes and connections between them as edges, our approach captures the non-sequential nature of human thinking and allows for a more realistic modeling of thought processes. 
+
+
+
 ## Installation
 
 ```
@@ -175,5 +179,15 @@ CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node 2 --master-port 1979 main.py 
     --test_le {PATH_TO_CHECKPOINT}/predictions_ans_test.json \
     --bf16 \
     --evaluate_dir {PATH_TO_CHECKPOINT_STAGE2}
+```
+
+
+
+## Citing GoT
+
+
+
+```
+
 ```
 
