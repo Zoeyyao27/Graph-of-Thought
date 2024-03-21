@@ -159,7 +159,7 @@ CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node 2 --master-port 1979 main.py 
     --user_msg answer \
     --bs 20 --eval_bs 20 --epoch 20 --lr 4e-5 --output_len 64 \
     --prompt_format QCG-A --use_generate\
-    --got_root /data/yaoy/GoT/GoT/GoT_output/AQuA_pred/base_w_tf \
+    --got_root GoT_output/AQuA_pred/base_w_tf \
     --output_dir experiments/AQuA_GoT_base \
     --eval_le {PATH_TO_CHECKPOINT}/predictions_ans_eval.json \
     --test_le {PATH_TO_CHECKPOINT}/predictions_ans_test.json \
@@ -173,7 +173,7 @@ CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node 2 --master-port 1979 main.py 
     --user_msg answer \
     --bs 20 --eval_bs 20 --epoch 20 --lr 4e-5 --output_len 64 \
     --prompt_format QCG-A --use_generate\
-    --got_root /data/yaoy/GoT/GoT/GoT_output/AQuA_pred/base_w_tf \
+    --got_root GoT_output/AQuA_pred/base_w_tf \
     --output_dir experiments/AQuA_GoT_base \
     --eval_le {PATH_TO_CHECKPOINT}/predictions_ans_eval.json \
     --test_le {PATH_TO_CHECKPOINT}/predictions_ans_test.json \
