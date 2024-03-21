@@ -40,9 +40,9 @@ https://github.com/google-deepmind/AQuA
 
 
 
-##🤩 Ready! You GoT it! 
+## 🤩 Ready! You GoT it! 
 
-### ScienceQA
+### 👉🏻ScienceQA
 
 ```
 # Thought graph construction
@@ -113,7 +113,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --evaluate_dir {PATH_TO_CHECKPOINT_STAGE2}
 ```
 
-### AQUA-RAT
+### 👉🏻AQUA-RAT
 
 ```
 # construct AQUA thought graph
