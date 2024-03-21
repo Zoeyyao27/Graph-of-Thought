@@ -1,0 +1,13 @@
+accelerate==0.24.1
+Cython==0.29
+datasets==2.15.0
+deepspeed==0.13.4
+sentence-transformers==2.2.2
+sentencepiece==0.1.99
+spacy==2.3.9
+stanfordnlp==0.2.0
+torch==2.1.1+cu118
+torchaudio==2.1.1+cu118
+torchvision==0.16.1
+tqdm==4.66.1
+transformers==4.35.0
