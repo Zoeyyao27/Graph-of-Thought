@@ -4,13 +4,13 @@ We propose Graph-of-Thought (GoT) reasoning, which models human thought processe
 ![image](https://github.com/Zoeyyao27/Graph-of-Thought/blob/main/figures/GoT.png)
 
 
-## Installation
+## 🛠️Installation
 
 ```
 bash install.sh
 ```
 
-## Datasets
+## 📖Datasets
 
 ### ScienceQA
 
@@ -40,7 +40,7 @@ https://github.com/google-deepmind/AQuA
 
 
 
-## Ready! You GoT it!
+##🤩 Ready! You GoT it! 
 
 ### ScienceQA
 
@@ -183,7 +183,7 @@ CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node 2 --master-port 1979 main.py 
 
 
 
-## Citing GoT
+## 🎉Citing GoT
 
 
 
