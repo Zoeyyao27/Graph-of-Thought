@@ -149,8 +149,9 @@ CUDA_VISIBLE_DEVICES=0 python  main.py  \
 ##construct stage 2 AQUA thought graph
 python construct_GoT_aqua.py --generate_pred {PATH_TO_CHECKPOINT} \
     --output_dir 'GoT_output/AQuA_pred/base'
+```
 
-
+```
 ## stage 2 train answer generation
 CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node 2 --master-port 1979 main.py \
     --data_root data \
