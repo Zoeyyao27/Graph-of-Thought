@@ -189,6 +189,11 @@ CUDA_VISIBLE_DEVICES=0,1 torchrun --nproc_per_node 2 --master-port 1979 main.py 
 
 
 ```
-
+@article{yao2023beyond,
+  title={Beyond chain-of-thought, effective graph-of-thought reasoning in large language models},
+  author={Yao, Yao and Li, Zuchao and Zhao, Hai},
+  journal={arXiv preprint arXiv:2305.16582},
+  year={2023}
+}
 ```
 
