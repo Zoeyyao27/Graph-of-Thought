@@ -578,7 +578,7 @@ if __name__ == '__main__':
     random.seed(args.seed)
     
     if not os.path.exists(args.output_dir):
-            os.mkdir(args.output_dir)
+            os.makedirs(args.output_dir)
 
     if args.img_type is not None: #scienceqa dataset
         problems, qids, name_maps, image_features = load_data_img(args) 
